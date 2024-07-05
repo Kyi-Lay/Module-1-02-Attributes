@@ -1,44 +1,50 @@
-# 🐛 Images and Styles Not Appearing on Page
+# 🐛 Student Bio With Attributes
+     This project consists of an HTML file and a CSS file that together create a simple web page showcasing a student bio with contact information.
 
-Work with a partner to resolve the following issues:
+Table of Contents
+Project Structure
+HTML Details
+CSS Details
+How to Use
+License
 
-* As a user, I should be able to see an image on the page, and `alt` text that describes the image should be provided.
+# Project Structure
+  The project has the following structure:
 
-* As a user, I should see background colors applied to each section and list item, and the header text should be dark blue.
+* index.html: The main HTML file.
+* assets/css/style.css: The stylesheet for the HTML file.
+* assets/images/image-1.jpg: A placeholder image used in the HTML file.
+* README.md: Documentation for the project.
 
-## Expected Behavior
+## HTML Details
+   The index.html file is structured as follows:
 
-* When a user opens the page, an image should appear, and `alt` text describing the image should be provided.
+* <!DOCTYPE html>: Declares the document type.
+* <html lang="en-US">: Sets the language of the document to English (US).
+* <head>: Contains metadata about the document, including the character set, title, and link 
+  to the stylesheet.
+* <body>: Contains the main content of the document.
+* <header>: Contains the main heading of the page.
+* <section class="section">: Contains a brief bio and image.
+* <section class="section">: Contains contact information with links to email, GitHub, and a 
+  portfolio.
+  
+## Style.CSS 
+The style.css file contains the following styles:
 
-* When a user opens the page, each section and list item should have a background color applied, and the header text should be dark blue.
+* section: Sets the background color of sections to lemonchiffon.
+* headers: Sets the color of headers to darkblue.
+# email: Sets the background color of the email list item to goldenrod.
+# github: Sets the background color of the GitHub list item to lightsteelblue.
+# portfolio: Sets the background color of the portfolio list item to darkorange.
 
-## Actual Behavior
 
-* When a user opens the page, no image appears and `alt` text describing the image is not shown.
+## How to Use
+Clone or download the project to your local machine.
+Ensure the directory structure matches the structure outlined above.
+Open index.html in your web browser to view the page.
+Customize the content as needed by editing the HTML and CSS files.
 
-* When a user opens the page, each section and list item does not have a background color applied.
+### License
+This project is open-source and free to use.
 
-* When a user opens the page, the header text is not dark blue.
-
-## Assets
-
-The following image demonstrates the web application's appearance and functionality:
-
-![The portfolio page features headings in dark-blue text, rounded corners on the image placeholder, and various background colors.](./assets/image-1.png)
-
----
-
-## 💡 Hints
-
-Why is it important to give each global attribute a unique name?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* What other attributes can be used with HTML elements?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
